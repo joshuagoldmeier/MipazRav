@@ -8,16 +8,16 @@
         "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_navigation_item.xml"
     },
     {
-        "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_list_menu_item_icon.xml"
+        "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
         "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
         "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_navigation_item_subheader.xml"
+        "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
@@ -28,12 +28,12 @@
         "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
         "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
@@ -68,12 +68,12 @@
         "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\src\\main\\res\\layout\\activity_dummy_list2.xml"
     },
     {
-        "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_layout_tab_text.xml"
-    },
-    {
         "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
         "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_layout_tab_text.xml"
     },
     {
         "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
@@ -92,12 +92,12 @@
         "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\src\\main\\res\\layout\\ask_the_rabbi_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shiurim__fragment.xml",
-        "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\src\\main\\res\\layout\\shiurim__fragment.xml"
-    },
-    {
         "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shiurim__fragment.xml",
+        "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\src\\main\\res\\layout\\shiurim__fragment.xml"
     },
     {
         "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
@@ -136,12 +136,12 @@
         "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
         "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
         "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",

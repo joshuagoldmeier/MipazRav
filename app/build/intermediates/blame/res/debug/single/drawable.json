@@ -176,6 +176,10 @@
         "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\src\\main\\res\\drawable\\color_1.jpg"
     },
     {
+        "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\buttonshape.xml",
+        "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\src\\main\\res\\drawable\\buttonshape.xml"
+    },
+    {
         "merged": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\joshuaegoldmeier\\AndroidStudioProjects\\MipazRav-2016-05-26\\MipazRav\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
