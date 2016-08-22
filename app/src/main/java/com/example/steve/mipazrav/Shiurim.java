@@ -22,7 +22,7 @@ public class Shiurim extends Fragment {
         return view;
     }
 
-    private final AdapterView.OnItemClickListener listener = new AdapterView.OnItemClickListener() {
+    private final AdapterVier = new AdapterView.OnItemClickListener() {
         public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
 
 
