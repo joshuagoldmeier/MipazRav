@@ -43,18 +43,15 @@ TODO: change menu items add functionality to the menu items and the gridView but
  */
 public class MainActivity extends AppCompatActivity {
 
-    private boolean mUsePicBackground = false;
 
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        outState.putBoolean("SHOW_ASK_THE_RABBI_PIC",mUsePicBackground);
     }
 
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
-        mUsePicBackground=savedInstanceState.getBoolean("SHOW_ASK_THE_RABBI_PIC");
 
     }
 
@@ -129,27 +126,7 @@ public class MainActivity extends AppCompatActivity {
         };
     }
 
-    public void showBackgroundImageClick(MenuItem item) {
 
-        ImageView background = (ImageView) findViewById(R.id.img_background);
-
-        int visibilityMode = mUsePicBackground ? View.VISIBLE : View.INVISIBLE;
-
-        if (background != null) {
-            background.setVisibility(visibilityMode);
-        }
-
-        item.setChecked(!item.isChecked());
-        mUsePicBackground = item.isChecked();
-    }
-
-    public boolean onPrepareOptionsMenu(Menu menu) {
-
-        // meaning: check or remove the check in the menu to match the user value for this pref.
-        menu.findItem(R.id.action_showBackgroundImage).setChecked(mUsePicBackground);
-
-        return super.onPrepareOptionsMenu(menu);
-    }
 
     public void sendEmail(String recipient, String body) {
 
