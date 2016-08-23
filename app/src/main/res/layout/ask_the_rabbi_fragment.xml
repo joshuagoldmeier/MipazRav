@@ -6,29 +6,12 @@
     android:fillViewport="true"
     >
 
-
-
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
 
         >
-
-        <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:tools="http://schemas.android.com/tools"
-            android:id="@+id/img_background"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:contentDescription="backgroundImage"
-            android:scaleType="centerCrop"
-            android:src="@drawable/rebbe"
-            android:alpha=".1"
-            />
-
 
         <android.support.v7.widget.AppCompatEditText
             android:id="@+id/fullName"
@@ -71,12 +54,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-
-
             android:hint="Comment"
             />
-
-
 
         <Button
             android:id="@+id/button_send"
@@ -85,9 +64,6 @@
             android:layout_weight=".25"
             android:onClick="sendQuestion"
             android:text="Send" />
-
-
-
 
     </LinearLayout>
 </ScrollView>

@@ -1,0 +1,4 @@
+CHANGED,C:\Users\joshuaegoldmeier\AndroidStudioProjects\MipazRav-2016-05-26\MipazRav\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\steve\mipazrav\R$id$override.class
+CHANGED,C:\Users\joshuaegoldmeier\AndroidStudioProjects\MipazRav-2016-05-26\MipazRav\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\design\R$id$override.class
+CHANGED,C:\Users\joshuaegoldmeier\AndroidStudioProjects\MipazRav-2016-05-26\MipazRav\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,C:\Users\joshuaegoldmeier\AndroidStudioProjects\MipazRav-2016-05-26\MipazRav\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\steve\mipazrav\MainActivity$override.class

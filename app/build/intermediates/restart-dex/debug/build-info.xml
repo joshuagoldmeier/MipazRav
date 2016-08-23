@@ -4,29 +4,43 @@
     api-level="23"
     density="560dpi"
     format="7"
-    timestamp="895323187986002" >
+    timestamp="982601024112414"
+    verifier="R_CLASS_CHANGE" >
 
     <task
         name="javac"
-        duration="1786" />
+        duration="467" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="970" />
+        duration="140" />
     <task
         name="verifier"
-        duration="249" />
+        duration="20" />
 
     <artifact
-        location="C:\Users\joshuaegoldmeier\AndroidStudioProjects\MipazRav-2016-05-26\MipazRav\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="C:\Users\joshuaegoldmeier\AndroidStudioProjects\MipazRav-2016-05-26\MipazRav\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="C:\Users\joshuaegoldmeier\AndroidStudioProjects\MipazRav-2016-05-26\MipazRav\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+        type="DEX" />
 
-    <build timestamp="895323187986002" >
+    <build timestamp="982441617091020" >
         <artifact
             location="C:\Users\joshuaegoldmeier\AndroidStudioProjects\MipazRav-2016-05-26\MipazRav\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="982601024112414"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="C:\Users\joshuaegoldmeier\AndroidStudioProjects\MipazRav-2016-05-26\MipazRav\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\Users\joshuaegoldmeier\AndroidStudioProjects\MipazRav-2016-05-26\MipazRav\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>
