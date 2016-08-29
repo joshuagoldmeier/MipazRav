@@ -2,6 +2,7 @@ package com.example.steve.mipazrav;
 
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
@@ -140,7 +141,6 @@ public class MainActivity extends AppCompatActivity {
 
         bm.send();
 
-
     }
 
 
@@ -169,5 +169,51 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void button_listener(View view) {
 
+        Intent i = new Intent(this, DummyListActivity2.class);
+
+        switch (view.getId()) {
+
+            case R.id.Torah:
+
+                i.putExtra("POSITION", 0);
+                this.startActivity(i);
+                break;
+
+            case R.id.Hokma:
+                i.putExtra("POSITION", 1);
+                this.startActivity(i);
+                break;
+
+            case R.id.General:
+
+                i.putExtra("POSITION", 2);
+                this.startActivity(i);
+                break;
+
+            case R.id.Music:
+
+                i.putExtra("POSITION", 3);
+                this.startActivity(i);
+                break;
+
+            case R.id.Rabbi_Browser:
+
+                i.putExtra("POSITION", 4);
+                this.startActivity(i);
+                break;
+
+            case R.id.Recommended_this_Month:
+
+                i.putExtra("POSITION", 5);
+                this.startActivity(i);
+                break;
+
+            default:
+                break;
+        }
+
+
+    }
 }

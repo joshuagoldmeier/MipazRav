@@ -26,6 +26,7 @@
                 android:textSize="30sp"
                 android:layout_margin="10dp"
                 android:layout_weight=".5"
+                android:onClick="button_listener"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -47,6 +48,8 @@
                 android:textSize="30sp"
                 android:layout_margin="10dp"
                 android:layout_weight=".5"
+                android:onClick="button_listener"
+
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -61,13 +64,15 @@
 
             >
             <Button
-                android:id="@+id/Megillah"
+                android:id="@+id/General"
 
-                android:text="Megillah"
+                android:text="General"
                 android:textColor="#00A0DC"
                 android:textSize="30sp"
                 android:layout_margin="10dp"
                 android:layout_weight=".5"
+                android:onClick="button_listener"
+
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -89,6 +94,8 @@
                 android:textSize="30sp"
                 android:layout_margin="10dp"
                 android:layout_weight=".5"
+                android:onClick="button_listener"
+
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -110,6 +117,8 @@
                 android:textSize="30sp"
                 android:layout_margin="10dp"
                 android:layout_weight=".5"
+                android:onClick="button_listener"
+
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -131,6 +140,8 @@
                 android:textSize="30sp"
                 android:layout_margin="10dp"
                 android:layout_weight=".5"
+                android:onClick="button_listener"
+
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

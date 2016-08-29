@@ -22,11 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ShiurimListActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_media_player"
-            android:theme="@style/Theme.AppCompat.Dialog.MinWidth" />
         <activity android:name=".MediaPlayback" />
         <activity
             android:name=".DummyListActivity"
