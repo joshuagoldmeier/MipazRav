@@ -22,14 +22,15 @@
 
     </android.support.design.widget.AppBarLayout>
 
-
+    <!--app:tabSelectedTextColor="@android:color/holo_blue_light"-->
     <android.support.design.widget.TabLayout
         android:id="@+id/slidingTabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:tabTextColor="@android:color/white"
         android:background="@color/colorPrimaryDark"
-        app:tabSelectedTextColor="@android:color/holo_blue_light"
+        app:tabSelectedTextColor="#C0C0C0"
+
         />
 
 

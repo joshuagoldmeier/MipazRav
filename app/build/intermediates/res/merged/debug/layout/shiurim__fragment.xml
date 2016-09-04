@@ -1,289 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
 
-
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-
-        >
+        android:layout_height="match_parent">
 
         <TableRow
             android:id="@+id/tableRow1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="wrap_content">
 
-            >
-            <Button
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Parsha"
+                android:text="Parsha"/>
 
-                android:text="Parsha"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_margin="10dp"
-                android:layout_weight=".5"
-
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
-            <Button
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Navi"
-
-                android:text="Navi"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_margin="10dp"
-                android:layout_weight=".5"
-
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
+                android:text="Navi"/>
 
         </TableRow>
         <TableRow
             android:id="@+id/tableRow2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-            <Button
+
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Megillah"
+                android:text="Megillah"/>
 
-                android:text="Megillah"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_weight=".5"
-                android:layout_margin="10dp"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
-            <Button
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Tehillim"
-
-                android:text="Tehillim"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_weight=".5"
-                android:layout_margin="10dp"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
+                android:text="Tehillim"/>
 
         </TableRow>
         <TableRow
             android:id="@+id/tableRow3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-            <Button
+
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Holiday"
+                android:text="Holiday"/>
 
-                android:text="Holiday"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_weight=".5"
-                android:layout_margin="10dp"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
-            <Button
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Prayer"
+                android:text="Prayer"/>
 
-                android:text="Prayer"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_weight=".5"
-                android:layout_margin="10dp"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
         </TableRow>
         <TableRow
             android:id="@+id/tableRow4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
-            <Button
+
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Literature"
+                android:text="Literature"/>
 
-                android:text="Literature"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_weight=".5"
-                android:layout_margin="10dp"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
-            <Button
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Nutshell"
+                android:text="Nutshell"/>
 
-                android:text="Nutshell"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_weight=".5"
-                android:layout_margin="10dp"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
 
         </TableRow>
         <TableRow
             android:id="@+id/tableRow5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
-            <Button
+
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Philosophy"
+                android:text="Philosophy"/>
 
-                android:text="Philosophy"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_weight=".5"
-                android:layout_margin="10dp"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
-            <Button
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Halacha"
+                android:text="Halacha"/>
 
-                android:text="Halacha"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_weight=".5"
-                android:layout_margin="10dp"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
         </TableRow>
         <TableRow
             android:id="@+id/tableRow6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
-            <Button
+
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Derech_Etz_Chaim"
+                android:text="Derech Etz Chaim"/>
 
-                android:text="Derech Etz Chaim"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_weight=".5"
-                android:layout_margin="10dp"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
-            <Button
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/People_in_Tanach"
+                android:text="People in Tanach"/>
 
-                android:text="People in Tanach"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_weight=".5"
-                android:layout_margin="10dp"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
         </TableRow>
         <TableRow
             android:id="@+id/tableRow7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
-            <Button
+
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Yahrteit"
+                android:text="Yahrteit"/>
 
-                android:text="Yahrteit"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_weight=".5"
-                android:layout_margin="10dp"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
-            <Button
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Pirkei_Avot"
+                android:text="Pirkei Avot"/>
 
-                android:text="Pirkei Avot"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_weight=".5"
-                android:layout_margin="10dp"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
         </TableRow>
         <TableRow
             android:id="@+id/tableRow8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
-            <Button
+
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Oral_Torah"
+                android:text="Oral Torah"/>
 
-                android:text="Oral Torah"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_weight=".5"
-                android:layout_margin="10dp"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
-            <Button
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Ramchal"
+                android:text="Ramchal"/>
 
-                android:text="Ramchal"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_weight=".5"
-                android:layout_margin="10dp"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
         </TableRow>
         <TableRow
             android:id="@+id/tableRow9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
-            <Button
+
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Kinyan_Torah"
-
-                android:text="Kinyan Torah"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_weight=".5"
-                android:layout_margin="10dp"
-
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
+                android:text="Kinyan Torah"/>
 
         </TableRow>
 
@@ -291,3 +161,5 @@
 
 
 </LinearLayout>
+
+</ScrollView>

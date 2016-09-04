@@ -1,0 +1,1 @@
+CHANGED,C:\Users\joshuaegoldmeier\AndroidStudioProjects\MipazRav-2016-05-26\MipazRav\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\steve\mipazrav\MainActivity.class

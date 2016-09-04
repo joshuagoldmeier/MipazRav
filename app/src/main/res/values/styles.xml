@@ -20,4 +20,18 @@
         <item name="android:background">@color/black_overlay</item>
     </style>
 
+    <style name="button" parent="@android:style/Widget.Button">
+        <item name="com.example.steve.mipazrav:font">fonts/TrajanPro-Regular.ttf</item>
+        <item name="android:background">@drawable/buttonshape</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#00A0DC</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:onClick">button_listener</item>
+        <item name="android:layout_weight">.5</item>
+        <item name="android:layout_margin">10dp</item>
+
+    </style>
+
 </resources>

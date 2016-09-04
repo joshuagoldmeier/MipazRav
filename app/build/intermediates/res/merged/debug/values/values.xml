@@ -38,11 +38,11 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <color name="colorAccent">#607D8B</color>
+    <color name="colorAccent">#607d8b</color>
     <color name="colorDivider">#B6B6B6</color>
     <color name="colorIcons">#FFFFFF</color>
     <color name="colorPrimary">#9E9E9E</color>
-    <color name="colorPrimaryDark">#616161</color>
+    <color name="colorPrimaryDark">#00A0DC</color>
     <color name="colorPrimaryLight">#F5F5F5</color>
     <color name="colorPrimaryText">#212121</color>
     <color name="colorSecondaryText">#727272</color>
@@ -118,6 +118,7 @@
     <declare-styleable name="CompoundButton"><attr name="android:button"/><attr format="color" name="buttonTint"/><attr name="buttonTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
     <declare-styleable name="CoordinatorLayout"><attr format="reference" name="keylines"/><attr format="reference" name="statusBarBackground"/></declare-styleable>
     <declare-styleable name="CoordinatorLayout_LayoutParams"><attr name="android:layout_gravity"/><attr format="string" name="layout_behavior"/><attr format="reference" name="layout_anchor"/><attr format="integer" name="layout_keyline"/><attr name="layout_anchorGravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr></declare-styleable>
+    <declare-styleable name="CustomFont"><attr format="string" name="font"/></declare-styleable>
     <declare-styleable name="DesignTheme"><attr format="reference" name="bottomSheetDialogTheme"/><attr format="reference" name="bottomSheetStyle"/><attr format="color" name="textColorError"/></declare-styleable>
     <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="arrowHeadLength"/><attr format="dimension" name="arrowShaftLength"/><attr format="dimension" name="barLength"/><attr format="dimension" name="thickness"/></declare-styleable>
     <declare-styleable name="FloatingActionButton"><attr name="backgroundTint"/><attr name="backgroundTintMode"/><attr format="color" name="rippleColor"/><attr name="fabSize"><enum name="normal" value="0"/><enum name="mini" value="1"/></attr><attr name="elevation"/><attr format="dimension" name="pressedTranslationZ"/><attr format="dimension" name="borderWidth"/><attr format="boolean" name="useCompatPadding"/></declare-styleable>
@@ -1742,5 +1743,18 @@
         <item name="errorTextAppearance">@style/TextAppearance.Design.Error</item>
         <item name="counterTextAppearance">@style/TextAppearance.Design.Counter</item>
         <item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow</item>
+    </style>
+    <style name="button" parent="@android:style/Widget.Button">
+        <item name="com.example.steve.mipazrav:font">fonts/TrajanPro-Regular.ttf</item>
+        <item name="android:background">@drawable/buttonshape</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#00A0DC</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:onClick">button_listener</item>
+        <item name="android:layout_weight">.5</item>
+        <item name="android:layout_margin">10dp</item>
+
     </style>
 </resources>

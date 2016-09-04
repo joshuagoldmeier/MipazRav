@@ -7,150 +7,78 @@
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-
-
-        >
+        android:layout_height="match_parent">
 
         <TableRow
             android:id="@+id/tableRow1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="wrap_content">
 
-            >
-            <Button
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Torah"
+                android:text="Torah"/>
 
-                android:text="Torah"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_margin="10dp"
-                android:layout_weight=".5"
-                android:onClick="button_listener"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
 
         </TableRow>
         <TableRow
             android:id="@+id/tableRow2"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="wrap_content">
 
-            >
-            <Button
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Hokma"
-
-                android:text="Hokma"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_margin="10dp"
-                android:layout_weight=".5"
-                android:onClick="button_listener"
-
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
+                android:text="Hokma"/>
 
         </TableRow>
         <TableRow
             android:id="@+id/tableRow3"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="wrap_content">
 
-            >
-            <Button
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/General"
+                android:text="General"/>
 
-                android:text="General"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_margin="10dp"
-                android:layout_weight=".5"
-                android:onClick="button_listener"
-
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
 
         </TableRow>
         <TableRow
             android:id="@+id/tableRow4"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="wrap_content">
 
-            >
-            <Button
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Music"
+                android:text="Music"/>
 
-                android:text="Music"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_margin="10dp"
-                android:layout_weight=".5"
-                android:onClick="button_listener"
-
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
 
         </TableRow>
         <TableRow
             android:id="@+id/tableRow5"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            >
-            <Button
+            android:layout_height="wrap_content">
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Rabbi_Browser"
+                android:text="Rabbi's Browser"/>
 
-                android:text="Rabbi's Browser"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_margin="10dp"
-                android:layout_weight=".5"
-                android:onClick="button_listener"
-
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
 
         </TableRow>
         <TableRow
             android:id="@+id/tableRow6"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="wrap_content">
 
-            >
-            <Button
+            <com.example.steve.mipazrav.ButtonPlus
+                style="@style/button"
                 android:id="@+id/Recommended_this_Month"
-
-                android:text="Recommended this Month"
-                android:textColor="#00A0DC"
-                android:textSize="30sp"
-                android:layout_margin="10dp"
-                android:layout_weight=".5"
-                android:onClick="button_listener"
-
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshape"
-                />
+                android:text="Recommended this Month"/>
 
         </TableRow>
 
     </TableLayout>
-
 
 </LinearLayout>
